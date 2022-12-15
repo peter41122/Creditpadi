@@ -1,0 +1,128 @@
+.mainframe {
+  height: 100vh;
+  background-color: #002060;
+  color: white;
+
+  .site_header {
+    line-height: 25px;
+    font-size: 20px;
+    padding: 2rem 0;
+    font-family: 'Poppins';
+
+    .brand {
+      flex-shrink: 1;
+
+      .navbar-brand {
+        font-size: 26px;
+        font-weight: bold;
+      }
+    }
+
+    .navs_wrapper {
+      transition: opacity .1s ease-in-out;
+      opacity: 1;
+
+      ul,
+      ol {
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style-type: none;
+        }
+      }
+
+      .navs {
+        position: relative;
+        vertical-align: bottom;
+        justify-content: flex-end;
+        align-items: center;
+
+        .nav-item {
+          .nav-link {
+            background: transparent none;
+            padding: 20px;
+            margin: 0 3px;
+          }
+
+          button {
+            padding: 0.75rem 2rem;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .site_container {
+    font-family: 'Montserrat';
+
+    .banner-mockup {
+      position: absolute;
+      right: 0px;
+      text-align: right;
+      padding: 3rem 0;
+    }
+
+    .banner-content {
+      padding: 12rem 0;
+
+      .get-started-area {
+        position: relative;
+        width: 85%;
+
+        input,
+        input[type=text]:focus {
+          z-index: 1;
+          padding: 0.8rem 1.2rem;
+          padding-right: 12rem;
+          background-color: inherit;
+          color: white;
+          border: 2px solid white;
+        }
+
+        button {
+          position: absolute;
+          top: 2px;
+          right: 1px;
+          z-index: 2;
+          padding: 0.75rem 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+.authframe {
+  height: 100vh;
+
+  .signup-content {
+    height: 100%;
+    .left-panel {
+      background-color: #002060;
+    }
+
+    .left-panel {
+      .brand {
+        font-family: 'Poppins';
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        padding: 3rem 2rem;
+      }
+    }
+    .right-panel {
+      .hr-area {
+        position: relative;
+
+        .hr-area-context {
+          font-size: 16px;
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          padding: 0.25rem 1rem;
+        }
+      }
+    }
+  }
+}
